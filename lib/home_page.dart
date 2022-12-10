@@ -124,6 +124,7 @@ class _HomePageState extends State<HomePage> {
                     side: BorderSide(color: Color.fromARGB(255, 0, 0, 0))),
                 onPressed: () {
                   widget.islemYazisi.clear();
+                  cevap = "";
                   ButtonColorSelection.buttonColorSelection(ButtonMetin.c);
                   setState(() {});
                 },
